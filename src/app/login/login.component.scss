@@ -1,0 +1,56 @@
+svg#clouds {
+    position: fixed;
+    bottom: -160px;
+    left: -230px;
+    z-index: -10;
+    width: 1920px;
+  }
+  .example-card {
+    max-width: 350px;
+    
+  }
+  
+  .example-header-image {
+    background-image: url('https://lh3.googleusercontent.com/proxy/XJxZ6fIl5wy6tHGgkR1QF2fxulwbw0L9m_SWxQYECTThZl60Nd60SXWYnfUQAJ6fjZ9qo09DoevXF6ayDqpGefgcEEG4_mcpklo77VE5jUe4zFg');
+    background-size: cover;
+  }
+
+  .card{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .fix-image{
+      width: 100%;
+      text-align: center;
+      margin-left: auto;
+      margin-right: auto;
+      padding-left: 2.5rem;
+  }
+  .example-form {
+    min-width: 150px;
+    max-width: 500px;
+    width: 100%;
+  }
+  
+  .example-full-width {
+    width: 100%;
+  }
+  
+  mat-card-actions{
+      text-align: center;
+
+      button{
+          background-color: #0cad37;
+          color: white;
+      }
+    
+.font-indigo{
+    color: indigo;
+    cursor: pointer;
+}
+
+  }
+
