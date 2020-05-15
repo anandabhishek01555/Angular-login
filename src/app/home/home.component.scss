@@ -6,7 +6,15 @@ img{
 }
 
 .log{
-    background-color: #4131ceea;
+    background-color: #1b09bbea;
     color: white;
     padding: 0.5rem;
+    border-radius: 50px;
 }
+svg#clouds {
+    position: fixed;
+    bottom: -160px;
+    left: -230px;
+    z-index:-10;
+    width: 1920px;
+  }

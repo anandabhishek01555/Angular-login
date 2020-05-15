@@ -1,4 +1,21 @@
-img{
-    width:50rem;
-    height:auto;
+.register{
+    margin-top: -500px;
+    padding-left: 250px;
 }
+
+.lap-img{ 
+    position: sticky;
+    top:0;
+    flex:column;
+    padding-left: 700px;
+    padding-top: 20px;
+}
+
+button{
+    background-color: #334297;
+    color: white;
+}
+
+mat-form-field{
+    width:400px !important;
+  }
