@@ -11,7 +11,7 @@ Name :<br>
   </mat-form-field>
   <br>
   E-mail :<br>
-  <mat-form-field appearance="fill" width="100%">
+  <mat-form-field appearance="fill">
     <mat-label>Enter your email</mat-label>
     <input matInput placeholder="pat@example.com" required>
     
@@ -23,7 +23,17 @@ Name :<br>
     <input type="tel" matInput placeholder="555-555-1234">
     <span matPrefix>+1 &nbsp;</span>
     <mat-icon matSuffix>mode_edit</mat-icon>
+  </mat-form-field><br>
+  Password:<br>
+  <mat-form-field appearance="fill">
+    <mat-label>Enter your password</mat-label>
+    <input matInput [type]="hide ? 'password' : 'text'">
+    <button mat-icon-button matSuffix (click)="hide = !hide" [attr.aria-label]="'Hide password'" [attr.aria-pressed]="hide">
+    <mat-icon>{{hide ? 'visibility_off' : 'visibility'}}</mat-icon>
+    </button>
   </mat-form-field>
   <br><br>
-  <button class = "mat-elevation-z4" mat-raised-button>Register Now</button>
+  <div class="btn-center">
+  <button class = "mat-elevation-z4 col" mat-raised-button>Register Now</button>
+</div>
 </div>

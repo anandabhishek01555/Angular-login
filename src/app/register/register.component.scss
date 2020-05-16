@@ -1,5 +1,5 @@
 .register{
-    margin-top: -500px;
+    margin-top: -550px;
     padding-left: 250px;
 }
 
@@ -11,11 +11,40 @@
     padding-top: 20px;
 }
 
-button{
+mat-form-field{
+    width:100%;
+}
+
+.col{
     background-color: #334297;
     color: white;
 }
 
 mat-form-field{
-    width:400px !important;
+    width:400px;
+  }
+
+  @media only screen and (max-width: 600px) {
+    .register{
+        margin-top: 5rem;
+        padding-left: 30px;
+        margin-right: 15px;
+    }
+    .lap-img{ 
+display: none;
+    }
+    mat-form-field{
+        width: 95%;
+        margin-right: 30px;
+    }
+    h2{
+        text-align: center;
+    }
+    // .mob-cen{
+    //     text-align: center;
+    //     margin-left: 7rem;
+    // }
+.btn-center{
+    text-align: center;
+}
   }

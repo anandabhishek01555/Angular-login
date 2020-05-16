@@ -1,7 +1,9 @@
 img{
     width:35rem;
     height:auto;
-    padding: 3rem;
+    padding-top:4rem;
+    margin-bottom:2.5rem;
+    // padding: 3rem;
     z-index:1;
 }
 
@@ -11,10 +13,16 @@ img{
     padding: 0.5rem;
     border-radius: 50px;
 }
-svg#clouds {
-    position: fixed;
-    bottom: -160px;
-    left: -230px;
-    z-index:-10;
-    width: 1920px;
+
+
+  @media only screen and (max-width: 600px) {
+    img {
+        width:30rem;
+        height:25rem;
+        padding-top: 5.5rem;
+        margin-left: 0px;
+        margin-right: 0px;
+        z-index:1;
+    }
+
   }

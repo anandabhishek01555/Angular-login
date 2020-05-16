@@ -1,6 +1,6 @@
 
   .example-card {
-    max-width: 350px;
+    max-width: 400px;
     margin-top: -100px;
   }
   
@@ -19,7 +19,7 @@
   .fix-image{
       width: 100%;
       text-align: center;
-      margin-left: auto;
+      margin-left: 25px;
       margin-right: auto;
       padding-left: 2.5rem;
   }
@@ -54,4 +54,29 @@
     left: -230px;
     z-index:-10;
     width: 1920px;
+  }
+
+  @media only screen and (max-width: 600px) {
+    // .card {
+    //   width:200px;
+    //   padding-left: ;
+    // }
+    svg#clouds {
+      position: fixed;
+      bottom: -160px;
+      left: -230px;
+      z-index:-10;
+      width: 0px;
+    }
+    .fix-image{
+      width: 100%;
+      text-align: center;
+      margin-left: 18px;
+      margin-right: auto;
+      padding-left: 2.5rem;
+  }
+  .mat-elevation-z5{
+    box-shadow: none !important;
+    border: 0px;
+  }
   }
